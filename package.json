@@ -1,17 +1,17 @@
 {
-	"name"    : "x-server-heapdump",
-	"version" : "0.0.0",
-	"dependencies" : {
-		"x-log"    : "latest",
-		"heapdump" : "latest",
-		"memwatch-next" : "latest"
-	},
-	"devDependencies":{
-		"markdox" : "latest",
-		"vows"    : "latest"
-	},
-	"main" : "heapdump.js",
-	"scripts": {
-		"prepublish" : "markdox -o ./README.md ./heapdump.js"
-	}
+  "name": "x-server-heapdump",
+  "version": "0.0.1",
+  "dependencies": {
+    "x-log": "latest",
+    "heapdump": "latest",
+    "memwatch-next": "latest"
+  },
+  "devDependencies": {
+    "markdox": "latest",
+    "vows": "latest"
+  },
+  "main": "heapdump.js",
+  "scripts": {
+    "prepublish": "markdox -o ./README.md ./heapdump.js"
+  }
 }
